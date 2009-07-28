@@ -1,6 +1,6 @@
 = lastfm-ruby
 
-Description goes here.
+Ruby wrapper for the Last.fm Web Services API. See http://last.fm/api
 
 == Copyright
 
