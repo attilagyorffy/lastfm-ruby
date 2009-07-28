@@ -1,3 +1,5 @@
+require 'rubygems'
+
 dependencies = [
   { :title => 'LibXML', :lib => 'xml', :gem => 'libxml-ruby' }
 ]

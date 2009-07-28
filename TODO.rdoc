@@ -1,2 +1,2 @@
 = TODO
-* ((<Add gem dependencies|URL:http://github.com/liquid/lastfm-ruby/issues#issue/1>))
+* Add gem dependencies | http://github.com/liquid/lastfm-ruby/issues#issue/1

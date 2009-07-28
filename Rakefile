@@ -9,6 +9,7 @@ begin
     gem.email = "attila.gyorffy@gmail.com"
     gem.homepage = "http://github.com/liquid/lastfm-ruby"
     gem.authors = ["Attila Györffy"]
+    gem.add_dependency('libxml-ruby', '>= 1.1.3')
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
