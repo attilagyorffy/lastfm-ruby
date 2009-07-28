@@ -1,0 +1,3 @@
+Version 0.0.1 (2009-07-28)
+* NEW: Attempt to rewrite the previous version of the library.
+* NEW: Created a public repository for the project on GitHub: http://github.com/liquid/lastfm-ruby/
