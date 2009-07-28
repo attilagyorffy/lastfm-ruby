@@ -1,0 +1,7 @@
+= lastfm-ruby
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Attila Györffy. See LICENSE for details.
