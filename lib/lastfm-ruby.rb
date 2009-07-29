@@ -14,5 +14,4 @@ dependencies.each { |lib|
 }
 
 # Load Lastfm-ruby classes
-# require 'lastfm/base'
-# ...
+%w{base}.each { |lib| require File.dirname(__FILE__) + "/lastfm/#{lib}" }
