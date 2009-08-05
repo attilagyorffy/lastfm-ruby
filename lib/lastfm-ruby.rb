@@ -1,10 +1,12 @@
+# Load standard Ruby libs
 require 'rubygems'
+require 'cgi'
 
+# Load gem dependencies
 dependencies = [
-  { :title => 'LibXML', :lib => 'xml', :gem => 'libxml-ruby' }
+  { :title => 'LibXML', :lib => 'xml', :gem => 'libxml-ruby' },
 ]
 
-# Load dependencies and display a helpful message if something is missing
 dependencies.each { |lib|
   begin
     require lib[:lib]
@@ -13,5 +15,5 @@ dependencies.each { |lib|
   end
 }
 
-# Load Lastfm-ruby classes
-%w{base}.each { |lib| require File.dirname(__FILE__) + "/lastfm/#{lib}" }
+# Load Lastfm classes
+%w{base connection artist}.each { |lib| require File.dirname(__FILE__) + "/lastfm/#{lib}" }
